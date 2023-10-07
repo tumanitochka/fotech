@@ -1,0 +1,27 @@
+2023-10-05T07:26:09+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/src/Admin/API/Reports/Orders/Stats/DataStore.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-10-05T07:31:00+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-10-05T07:32:34+00:00 CRITICAL Uncaught Error: Class 'WC_Admin_Settings' not found in /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/includes/class-wc-api.php:175
+Stack trace:
+#0 /var/www/axpenser/data/www/forcetech.me/wp-includes/class-wp-hook.php(310): WC_API->register_wp_admin_settings(Object(WP_REST_Server))
+#1 /var/www/axpenser/data/www/forcetech.me/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/axpenser/data/www/forcetech.me/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/axpenser/data/www/forcetech.me/wp-includes/rest-api.php(587): do_action('rest_api_init', Object(WP_REST_Server))
+#4 /var/www/axpenser/data/www/forcetech.me/wp-includes/rest-api.php(411): rest_get_server()
+#5 /var/www/axpenser/data/www/forcetech.me/wp-includes/class-wp-hook.php(310): rest_api_loaded(Object(WP))
+#6 /var/www/axpenser/data/www/forcetech.me/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/axpenser/data/www/forcetech.me/wp-includes/plugin.php в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/includes/class-wc-api.php на строке 175
+
+2023-10-05T07:33:27+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/elementor/core/common/modules/connect/apps/base-app.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-10-05T07:35:54+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/elementor//includes/frontend.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-10-05T07:48:35+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/src/Internal/Admin/Marketing.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-10-05T07:48:41+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
+2023-10-05T07:51:51+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/elementor/core/files/uploads-manager.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/elementor/includes/autoloader.php на строке 294
+
+2023-10-05T07:51:57+00:00 CRITICAL require(): Failed opening required '/var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /var/www/axpenser/data/www/forcetech.me/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php на строке 90
+
